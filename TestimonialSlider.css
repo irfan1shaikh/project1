@@ -1,0 +1,88 @@
+/* Testimonial Slider Container */
+.testimonial-slider {
+  position: relative;
+  width: 100%;
+}
+
+/* Individual Testimonial */
+.testimonial {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Adjust height as needed */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Testimonial Content */
+.testimonial-content {
+  text-align: center;
+  color: #000000; /* Change text color to black */
+}
+
+.testimonial-content .testimonial-name {
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.testimonial-content .testimonial-company {
+  font-size: 18px; /* Adjust font size as needed */
+  margin-bottom: 10px;
+}
+
+.testimonial-content .testimonial-rating {
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+.testimonial-content .testimonial-comment {
+  font-size: 16px; /* Adjust font size as needed */
+  font-style: italic;
+}
+
+/* Testimonial Image */
+.testimonial-image {
+  width: 100px; /* Adjust image size as needed */
+  height: 100px; /* Adjust image size as needed */
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Testimonial Buttons */
+
+.testimonial-buttons button {
+  padding: 10px 20px; /* Button padding */
+  font-size: 16px; /* Button font size */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+  position: relative; /* Change position to relative */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+}
+
+.add-testimonial-button {
+  background-color: #007bff; /* Button background color */
+  color: #ffffff; /* Button text color */
+  margin-right: 10px; /* Add margin to separate from view more button */
+  margin: 0 auto; /* Center horizontally */
+  display: block; /* Change display to block to center */
+}
+
+.add-testimonial-button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+.view-more-button {
+  background-color: transparent; /* Transparent background */
+  color: #007bff; /* Button text color */
+  margin-left: 1300px; /* Shift slightly to the left */
+}
+
+.view-more-button:hover {
+  color: #a8aaac; /* Darker color on hover */
+}
